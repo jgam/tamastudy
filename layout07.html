@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout07</title>
+    <style>
+        /*reset*/
+        *{margin:0;padding:0;}
+        
+        /*total layout*/
+        #wrap {text-align: center;font-size: 40px;color:#fff;text-transform: uppercase;}
+        #header {height: 140px;}
+        #banner {background:#4dd0e1;height: 450px;}
+        #contents {height: 950px;}
+        #footer {height: 220px;}
+        
+        /*layout*/
+        #header-top{width:100%; height: 70px;background:#b2ebf2;line-height:70px;}
+        #header-nav{width:100%;height: 70px;background:#80deea;line-height:70px;}
+        #content1 {width: 100%; height: 90px;background-color:#26c6da;line-height:90px;}
+        #content2 {width: 100%; height: 480px;background-color:#00bcd4;line-height:480px;}
+        #content3 {width: 100%; height: 380px;background-color:#00acc1;line-height:380px;}
+        #footer-nav{width:100%;height: 60px;background-color: #0097a7;line-height:60px;}
+        #footer-info{width:100%;height: 160px;background-color:#00838f;line-height:160px;}
+        
+        /*container*/
+        .container{WIDTH:1100px; margin:0 auto;height:inherit;background:rgba(0,0,0,0.3);}
+    </style>
+</head>
+<body>
+   <!-- wrap -->
+    <div id="wrap">
+        <!-- header -->
+        <div id="header">
+            <div id="header-top">
+                <div class="container">header top</div>
+            </div>
+            <div id="header-nav">
+                <div class="container">header-nav</div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div id="banner">
+            <div class="container">banner</div>
+        </div>
+        <!-- contents -->
+        <div id="contents">
+            <div id="content1">
+                <div class="container">content1</div>
+            </div>
+            <div id="content2">
+                <div class="container">content2</div>
+            </div>
+            <div id="content3">
+                <div class="container">content3</div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <div id="footer-nav">
+                <div class="container">footer-nav</div>
+            </div>
+            <div id="footer-info">
+                <div class="container">footer-info</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
