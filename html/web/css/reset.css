@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*margin reset*/
+
+body,div,ul,li,dl,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form {margin: 0; padding: 0;}
+
+/* a link reset*/
+a {color: #222; text-decoration:none;}
+a:hover {color: #390;}
+
+/*font reset*/
+body, input, textarea, select, button, table {
+    font-family: 'Nanum Gothic',AppleSDGothicNeo-Regular;
+    color: #222; font-size: 13px;line-height: 1.5;
+}
+
+/*title tag reset*/
+h1, h2,h3,h4,h5,h6{font-size:13px;color:#222;font-weight:normal;}
+
+/*bullet point reset*/
+dl,ul,li,ol,menu {list-style: none;}
+
+/*IR effect*/
+/*meaningful image's replaceable texts case*/
+.ir_pm {display:block; overflow:hidden; font-size: 0; line-height: 0; text-indent: -9999px;}
+/*meaningful image's replceable texts, even if image is not there, when you want to display the texts*/
+.ir_wa {display: block;overflow: hidden;position: relative;z-index: -1;width: 100%;height: 100%;}
+/*repleable text is not hidden texts to be displayed*/
+.ir_su {overflow:hidden;position: absolute;width:0;height: 0;line-height: 0;text-indent: -9999px;}
